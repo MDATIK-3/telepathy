@@ -1,0 +1,121 @@
+.bottom-section {
+
+    /*container*/
+    height: 400px;
+    background-color: #11122b;
+    color: #cbcbcb;
+
+    font-family: "Ubuntu Condensed", sans-serif;
+    
+    /*Flexbox container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.bottom-section>.cc img {
+    width: 160px;
+    height: 100%;
+    filter: brightness(50%);
+
+
+}
+
+
+.bottom-section>.final-address {
+    padding: 20px 20px 30px 20px;
+}
+
+.bottom-section>.final-address>.a {
+    color: #cbcbcb;
+    font-weight: 555;
+    margin-left: 30px;
+
+    letter-spacing: 1.6px;
+}
+
+
+.bottom-section>.final-address>.b {
+    color: #cea135;
+    font-size: .8em;
+    letter-spacing: 2px;
+
+
+    margin-left: 30px;
+}
+
+
+/* links */
+.bottom-section>.links-wrapper {
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.bottom-section>.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-section>.links-wrapper>.nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.bottom-section>.links-wrapper>.nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+
+}
+
+
+.bottom-section>.links-wrapper>.nav-link {
+    width: 110px;
+    text-align: center;
+
+}
+
+
+
+/* SOCIAL LOGOS */
+.bottom-section>.social-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-section>.social-logo {
+    width: 196px;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.bottom-section>.social-logo>.instra:hover {
+    color: #cea135;
+}
+
+.bottom-section>.social-logo>.twitter:hover {
+    color: #cea135;
+}
+
+.bottom-section>.social-logo>.facebook:hover {
+    color: #cea135;
+}
+
+
+
+/* COPYRIGHT */
+.bottom-section>.copyright {
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu-Condensed' ;
+}
